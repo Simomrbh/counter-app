@@ -1,7 +1,8 @@
 <h2>Si Reda, here is you counter-app made by me</h2>
 <hr>
-<app-counter *ngFor="let num of numbers" [counterNum]="num" (increaseClicks)="increaseClicks()" (increaseSum)="increaseSum()" (decreaseSum)="decreaseSum()"></app-counter>
-<br>
+<div class="div-counters">
+    <app-counter *ngFor="let num of numbers" [counterNum]="num" (increaseClicks)="increaseClicks()" (increaseSum)="increaseSum()" (decreaseSum)="decreaseSum()"></app-counter>
+</div>
 <div class="div-sum" [ngClass]="{'positive-value':sum>0, 'negative-value': sum<0}">Sum of values: {{sum}}</div>
 <div class="div-total-clicks">
     <div *ngIf=" totalOfClicks === 0; else elseBlock">Number of clicks: WALO</div>

@@ -1,7 +1,30 @@
-.sub-title{
-    background-color: grey;
+.sub-title {
+    background-color: rgb(245, 235, 244);
+    display: inline-block;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 2px;
 }
-.value{
+
+.value {
     margin-left: 10px;
     margin-right: 10px;
+    background-color: rgb(245, 235, 244);
+    display: inline-block;
+    width: 40px;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+button {
+    border-radius: 50%;
+    font-size: 11px;
+}
+
+.increase-button {
+    background-color: green;
+}
+
+.decrease-button {
+    background-color: red;
 }
