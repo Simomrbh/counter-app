@@ -1,0 +1,32 @@
+.positive-value {
+    color: green;
+}
+
+.negative-value {
+    color: red;
+}
+
+.div-sum {
+    font-size: 13px;
+    font-weight: bold;
+    background-color: rgb(207, 167, 167);
+    border-radius: 2px;
+    height: 100px;
+    width: 250px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+.div-total-clicks {
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: lemonchiffon;
+    border-radius: 2px;
+    height: 100px;
+    width: 250px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
